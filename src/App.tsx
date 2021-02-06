@@ -1,11 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {useState} from 'react';
+import './App.sass';
 
 function App() {
+  const [title] = useState('RestaurantFinder')
   return (
     <div className="App">
-     
+      <h1>{title}</h1>
     </div>
   );
 }
